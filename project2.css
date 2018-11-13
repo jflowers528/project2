@@ -1,0 +1,362 @@
+body {
+    font-size: 28px;
+	background-color: #ffb6c1;
+	width: 1900px;
+	height: 1080px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #ff69b4;
+}
+
+a {
+	font-family: 'Nunito', sans-serif;
+}
+
+.grid-epic {
+	display: grid;
+	width: 1900px;
+	height: 1080px;
+	grid-template-columns: 18% 18% 18% 18% 18%;
+    grid-template-rows: 40% 35%;
+	align-content: center;
+	justify-content: center;
+	grid-row-gap: 35px;
+}
+
+.griditem2 {
+	background-color: #333;
+}
+
+.griditem3 {
+	grid-column-start: 3;
+	grid-column-end: span 2;
+}
+
+.griditem4 {
+	
+}
+
+.griditem5 {
+	background-color: #333;
+	border: 7px solid #ff69b4;
+}
+
+.griditem6 {
+	
+}
+
+.griditem7 {
+	background-color: #333;
+	border: 7px solid #ff69b4;
+}
+
+.griditem8 {
+	
+}
+
+.griditem9 {
+	background-color: #333;
+	border: 7px solid #ff69b4;
+}
+
+.griditem10 {
+	
+}
+
+h1.header {
+	text-align: center;
+	color: #020202;
+	font-family: 'Nunito', sans-serif;
+}
+
+h1.sans {
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-size: 20px;
+	}
+
+p.hometxt {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+}
+
+img.donny {
+	object-fit: cover;
+	width: 100%;
+	min-height: 100%;
+}
+
+p.homenav {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #ff69b4;
+  color: white;
+}
+
+img.sal {
+	object-fit: cover;
+	width: 100%;
+	max-height: 75%;
+}
+
+img.sal2 {
+	object-fit: cover;
+	width: 100%;
+	min-height: 100%;
+	max-height: 200%;
+}
+
+img.squid {
+	object-fit: cover;
+	width: 100%;
+	min-height: 95%;
+	max-height: 100%;
+}
+
+.grid-pros {
+	display: grid;
+	width: 1900px;
+	height: 1080px;
+	grid-template-columns: 1fr 20% 50% 20% 1fr;
+	grid-template-rows: 1fr 1fr 35px;
+	grid-row-gap: 35px;
+	grid-column-gap: 35px;
+	padding-top: 35px;
+}
+
+.griditem-1 {
+	
+}
+
+.griditem-2 {
+	grid-column-start: 2;
+	grid-row-start: 1;
+	grid-row-end: span 2;
+	background-color: #ff69b4;
+}
+
+.griditem-3 {
+	border: 2px solid black;
+	text-align: center;
+}
+
+.griditem-4 {
+	grid-column-start: 4;
+	grid-row-start: 1;
+	grid-row-end: span 2;
+	background-color: #ff69b4;
+}
+
+.griditem-5 {
+	
+}
+
+.griditem-6 {
+	
+}
+
+.griditem-7 {
+	background-color: #ff69b4;
+}
+
+.griditem-8 {
+	
+}
+
+.grid-ex {
+	display: grid;
+	width: 1900px;
+	height: 1080px;
+	grid-template-columns: 1fr 20% 50% 20% 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-row-gap: 35px;
+	grid-column-gap: 35px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.grid-item1 {
+	
+}
+
+.grid-item2 {
+	
+	grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: span 2;	
+}
+
+.grid-item3 {
+	
+}
+
+.grid-item4 {
+	
+	grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+}
+
+.grid-item5 {
+
+}
+
+.grid-item6 {
+	
+}
+
+.grid-item7 {
+	background-color: #333;
+}
+
+.grid-item8 {
+	
+}
+
+
+.grid-unepic {
+	display: grid;
+	width: 1900px;
+	height: 1080px;
+	grid-template-columns: 18% 18% 18% 18% 18%;
+    grid-template-rows: 40% 35%;
+	align-content: center;
+	justify-content: center;
+	grid-row-gap: 35px;
+	grid-column-gap: 35px;
+}
+
+.grid-items1 {
+	background-color: #333;
+}
+
+.grid-items2 {
+	grid-column-start: 2;
+	grid-column-end: span 3;
+	background-color: #333;
+	border: 5px solid #ff69b4;
+}
+
+.grid-items3 {
+	background-color: #333;
+}
+
+.grid-items4 {
+	background-color: #333;
+}
+
+.grid-items5 {
+	background-color: #333;
+}	
+
+
+.grid-items6 {
+	background-color: #333;
+}
+
+.grid-items7 {
+	background-color: #333;
+}
+
+.grid-items8 {
+	background-color: #333;
+}
+
+iframe.soundcloud {
+	object-fit: cover;
+	width: 100%;
+	min-height: 100%;
+}
+
+iframe.video {
+	object-fit: cover;
+	width: 100%;
+	min-height: 100%;
+}
+
+body.donnyp {
+	background-image: url("https://www.davincischools.org/wp-content/uploads/2017/06/Donald_Puathasnanon-Edited.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
